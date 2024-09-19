@@ -20,5 +20,4 @@ jobs:
       - name: Build package distributions
         run: pipx run build
       - name: Publish package distributions to PyPI
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: pypa/gh-action-pypi-publish@release/v1
