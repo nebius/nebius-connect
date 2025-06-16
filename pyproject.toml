@@ -4,7 +4,7 @@ description = "Nebius AI connector for Apache Spark™"
 version = "0.1.0"
 requires-python = ">=3.8"
 dependencies = [
-    "pyspark[connect]==3.5.*",
+    "pyspark[connect]>=3.5,<4.1",
     "grpcio>=1.66.1",
     "setuptools>=75.1.0; python_version>='3.12'",
 ]
